@@ -1,0 +1,62 @@
+.main__1{
+	height:100%;
+	background-color: #ffda7a;
+}
+.left__div__1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	/*font-style: italic;*/
+	font-size: 2.5vw;
+	padding: 15px;
+	
+	color: #328a89;
+	font-style: italic !important;
+}
+
+
+
+
+.right__div__btm{
+	background-color: #328a89;
+	height:250px;
+
+}
+
+.right__div__3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	/*font-style: italic;*/
+	font-size: 35px;
+	padding: 15px;
+	line-height: 40px;
+	color: #fff;
+}
+
+
+
+#quick_links{
+	font-size:2em;
+	font-weight: bold;
+}
+#quick_links .button{
+	padding: 2px;
+}
+/*MEDIA QUERY*/
+@media (min-device-width : 600px){
+	#quick_links{
+		margin-top: 70px;
+	}
+	.top_margin{
+		margin-top:30px;
+	}
+}
+@media (max-device-width: 1250px){
+	.left__div__1{
+		font-size:25px;
+	}
+}
+@media (max-device-width: 800px){
+	.left__div__1{
+		font-size:18px;
+	}
+}

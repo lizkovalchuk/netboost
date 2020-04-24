@@ -1,0 +1,23 @@
+
+/* chat data */
+
+. mainChatBox {
+
+    width: 50%;
+}
+
+/*custom buttons*/
+
+.c-btn{
+    border: 1px solid #328a89;
+    background-color: #fff;
+    color: #328a89;
+    font-family: Raleway!important;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 4em;
+    margin-top: 2em;
+}
+.c-btn:hover {
+    background-color: #ffda7a!important
+}
